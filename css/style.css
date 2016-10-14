@@ -1,0 +1,54 @@
+body{
+  background-color: #E8E9EB;
+  color: #4E4F4F;
+}
+
+header{
+  padding-top: 2px;
+  margin-bottom: 14px;
+}
+
+#name{
+  padding-left: 28px;
+  position: relative;
+  margin-bottom: -32px;
+  color: #4E4F4F;
+  letter-spacing: .6em;
+  font-size: 3.1em;
+  z-index: 2;
+}
+
+img{
+  width: 320px;
+  z-index: 1;
+  border: 2px solid #BEBEBE;
+  opacity: .7;
+  max-width: 100%;
+}
+
+a{
+  font-family: 'Roboto Mono', monospace;
+  color: #6866AD;
+  margin-right: 12px;
+  margin-left: 12px;
+  transition: .3s;
+
+  font-size: 1em;
+  letter-spacing: .03em;
+}
+
+a:hover{
+  background-color: #6866AD;
+  color: #E8E9EB;
+  text-decoration: none;
+}
+
+.dash{
+  color: #4C469A;
+}
+
+p{
+  letter-spacing: .2em;
+  margin: 6px;
+
+}
