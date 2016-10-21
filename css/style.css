@@ -70,6 +70,13 @@ a{
   opacity: 1;
 }
 
+main a{
+  margin-left: 6px;
+  margin-right: 0px;
+  font-size: .88em;
+
+}
+
 a:hover{
   opacity: .6;
   background-color: #6866AD;
