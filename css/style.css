@@ -20,35 +20,42 @@ body{
 
 }
 
+
+
+b{
+  font-size: 1.14em;
+}
+
 header{
   padding-top: 2px;
   margin-bottom: 14px;
 }
 
 #name{
-  padding-left: 28px;
+  /*padding-left: 28px;*/
   position: relative;
-  margin-bottom: -10px;
-  color: #4E4F4F;
-  letter-spacing: .6em;
-  font-size: 3.1em;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  color: #4d4f51;
+  letter-spacing: .3em;
+  font-size: 1.2em;
   z-index: 2;
   transition: .3s;
 }
 @media(max-width: 614px){
   #name{
-    letter-spacing: .4em;
-    font-size: 2.7em;
-    padding-left: 18px;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+
   }
 }
-@media(max-width: 435px){
+@media(max-width: 440px){
   #name{
-    letter-spacing: .3em;
+    letter-spacing: .1em;
 
-    font-size: 2.4em;
-    padding-left: 4px;
-    padding-bottom: 12px;
+    font-size: 1.1em;
+
+
   }
   #sub{
     display:none;
@@ -56,7 +63,7 @@ header{
 }
 @media(max-width: 301px){
   #name{
-    letter-spacing: .2em;
+    letter-spacing: .05em;
     font-size: 2.0em;
     padding-left: 2px;
 
@@ -82,7 +89,7 @@ p{
 
 img{
 
-
+  margin-bottom: 4px;
   z-index: 1;
   border: 2px solid #BEBEBE;
   opacity: .7;
@@ -92,8 +99,8 @@ img{
 a{
   font-family: 'Roboto Mono', monospace;
   color: #6866AD;
-  margin-right: 12px;
-  margin-left: 12px;
+  margin-right: 22px;
+  /*margin-left: 12px;*/
   transition: .5s;
 
   font-size: 1em;
@@ -102,9 +109,9 @@ a{
 }
 
 main a{
-  margin-left: 6px;
+  /*margin-left: 6px;*/
   margin-right: 0px;
-  font-size: .88em;
+  font-size: 1em;
 
 }
 
@@ -120,7 +127,11 @@ a:hover{
 }
 
 p{
-  letter-spacing: .2em;
+  letter-spacing: .13em;
   margin: 6px;
+  margin-bottom: 22.22px;
+}
 
+table tr{
+  border-bottom: none;
 }
