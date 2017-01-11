@@ -31,6 +31,17 @@ header{
   margin-bottom: 14px;
 }
 
+.point{
+  color: #6866AD;
+  padding-left: 6px;
+  font-weight: bold;
+  letter-spacing: .08em;
+}
+
+.first{
+  margin-left: 24px;
+}
+
 #name{
   /*padding-left: 28px;*/
   position: relative;
