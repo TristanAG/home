@@ -1,5 +1,6 @@
-$tg-purple: #66598f;
+$tg-purple: darken(#F69231, 28%);
 $tg-blue: lighten(#7676B7, 12%);
+$tg-space-gray: #4d4f51;
 $text-color: #3f1e36;
 $basic-padding: 14px;
 
@@ -17,13 +18,13 @@ h1{
 
 a{
   font-weight: bold;
-  color: $tg-purple;
+  color: #B26828;
   text-decoration: none;
   cursor: pointer;
 
   font-size: 16px;
   letter-spacing: .08em;
-  transition: .2.2s;
+  transition: .3s;
   &:hover{
     color: darken($tg-purple, 18%);
 
@@ -74,18 +75,19 @@ header{
 #beach{
   margin-top: $basic-padding;
   margin-bottom: $basic-padding;
-  background-image: url('../images/bg-hotdog.png');
+  background-image: url('../images/sunset-bird-sunrise-animal.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  height: 140px;
+  height: 280px;
 }
 
 #latest-block{
-  background-color: $tg-blue;
+  // background-color: darken($tg-purple, 20%);
+  background-color: $tg-space-gray;
   padding-top: $basic-padding;
   padding-bottom: $basic-padding;
   h1{
-    color: white;
+    color: lighten(#FEB63F, 14%);
   }
   small{
     color: white;
@@ -97,7 +99,7 @@ header{
   padding-bottom: $basic-padding;
 
   p{
-    margin-bottom: 12px;
+    margin-bottom: 24px;
   }
 
   h1{

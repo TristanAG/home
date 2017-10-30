@@ -1,5 +1,5 @@
 h1 {
-  color: #66598f;
+  color: #924b06;
   margin-bottom: 8px;
   margin-top: 8px;
   letter-spacing: .12em;
@@ -8,14 +8,14 @@ h1 {
 
 a {
   font-weight: bold;
-  color: #66598f;
+  color: #B26828;
   text-decoration: none;
   cursor: pointer;
   font-size: 16px;
   letter-spacing: .08em;
-  transition: 0.2 0.2s; }
+  transition: .3s; }
   a:hover {
-    color: #3e3656; }
+    color: #3a1e03; }
 
 p {
   color: #3f1e36;
@@ -50,17 +50,17 @@ header {
 #beach {
   margin-top: 14px;
   margin-bottom: 14px;
-  background-image: url("../images/bg-hotdog.png");
+  background-image: url("../images/sunset-bird-sunrise-animal.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  height: 140px; }
+  height: 280px; }
 
 #latest-block {
-  background-color: #9e9ecc;
+  background-color: #4d4f51;
   padding-top: 14px;
   padding-bottom: 14px; }
   #latest-block h1 {
-    color: white; }
+    color: #fed186; }
   #latest-block small {
     color: white; }
 
@@ -68,7 +68,7 @@ header {
   padding-top: 28px;
   padding-bottom: 14px; }
   #articles p {
-    margin-bottom: 12px; }
+    margin-bottom: 24px; }
   #articles h1 {
     padding-bottom: 14px; }
 
