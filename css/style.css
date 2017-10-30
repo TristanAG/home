@@ -1,206 +1,75 @@
-html{
-  /*background: url(../images/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
+h1 {
+  color: #66598f;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  letter-spacing: .12em;
+  font-size: 32px;
+  font-weight: 500; }
 
-}
+a {
+  font-weight: bold;
+  color: #66598f;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: .08em;
+  transition: 0.2 0.2s; }
+  a:hover {
+    color: #3e3656; }
 
-body{
-  /*background-color: #DEE4EA;*/
+p {
+  color: #3f1e36;
+  font-size: 16px;
+  letter-spacing: .08em;
+  margin-bottom: 22.22px; }
 
+.fa {
+  font-size: 24px; }
 
-  color: #4d4f51;
+.slashes {
+  margin-top: 28px;
+  margin-bottom: 14px; }
 
+.basic-heading {
+  font-size: 19px;
+  color: #3f1e36;
+  letter-spacing: .08em; }
 
+header {
+  padding-top: 28px;
+  padding-bottom: 14px; }
+  header a {
+    margin-right: 12px; }
 
+#intro-block {
+  padding-top: 33.6px;
+  padding-bottom: 33.6px; }
+  #intro-block .fa {
+    margin-right: 22px; }
 
-
-
-}
-
-#new-header{
+#beach {
+  margin-top: 14px;
+  margin-bottom: 14px;
   background-image: url("../images/bg-hotdog.png");
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
   background-size: cover;
   background-position: 50% 50%;
-  height: 140px;
-  margin-bottom: 24px;
-  margin-top: 24px;
-}
+  height: 140px; }
 
-b{
-  font-size: 1.14em;
-}
+#latest-block {
+  background-color: #9e9ecc;
+  padding-top: 14px;
+  padding-bottom: 14px; }
+  #latest-block h1 {
+    color: white; }
+  #latest-block small {
+    color: white; }
 
-header{
-  padding-top: 24px;
-  
-}
+#articles {
+  padding-top: 28px;
+  padding-bottom: 14px; }
+  #articles p {
+    margin-bottom: 12px; }
+  #articles h1 {
+    padding-bottom: 14px; }
 
-header a{
-  font-size: 20px;
-  margin-right: 0px;
-  color: #2b1d41;
-}
-
-.point{
-  color: #6866AD;
-  padding-left: 6px;
-  font-weight: bold;
-  letter-spacing: .08em;
-}
-
-.first{
-  margin-left: 24px;
-}
-
-#name{
-  /*padding-left: 28px;*/
-  position: relative;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  color: #4d4f51;
-  letter-spacing: .3em;
-  font-size: 16px;
-  z-index: 2;
-  transition: .3s;
-}
-h1{
-  position: relative;
-  margin-bottom: 8px;
-  margin-top: 8px;
-  color: #66598f;
-  /*color:  #452e66;*/
-  letter-spacing: .17em;
-  font-size: 32px;
-  z-index: 2;
-  transition: .3s;
-  font-weight: 500;
-}
-
-@media(max-width: 614px){
-  #name{
-    letter-spacing: .2em;
-    font-size: 1.2em;
-
-  }
-}
-@media(max-width: 440px){
-  #name{
-    letter-spacing: .1em;
-
-    font-size: 1.1em;
-
-
-  }
-  #sub{
-    display:none;
-  }
-}
-@media(max-width: 301px){
-  #name{
-    letter-spacing: .05em;
-    font-size: 2.0em;
-    padding-left: 2px;
-
-
-  }
-
-
-}
-
-.container{
-  /*margin-top: 12px;
-
-  background: rgba(237, 241, 247, .8);
-  border: 6px solid white;*/
-
-}
-
-p{
-  color: #3f1e36;
-  margin-bottom: 0px;
-  /*background: rgba(237, 241, 247, .5);*/
-  font-size: 16px;
-}
-
-.footer-image{
-  width: 100%;
-  margin-bottom: -20px;
-}
-
-footer{
-  background-color: #e5e5e5;
-  height: 90px;
-}
-
-img{
-
-  /*margin-bottom: 4px;*/
-  /*z-index: 1;*/
-  /*border: 2px solid #BEBEBE;*/
-  opacity: .7;
-  max-width: 100%;
-}
-
-a{
-  font-family: 'Roboto Mono', monospace;
-  color: #6866AD;
-  margin-right: 22px;
-  /*margin-left: 12px;*/
-  transition: .5s;
-
-  font-size: 1em;
-  letter-spacing: .03em;
-
-  text-decoration: none;
-}
-
-.date{
-  color: #3f1e36;
-
-  margin-top: 8px;
-  margin-bottom: 2px;
-}
-
-.post-tags{
-  color:  #66598f;
-  margin-bottom: 10px;
-  font-size: 13px;
-}
-
-.post{
-  margin-bottom: 82px;
-}
-
-main a{
-  /*margin-left: 6px;*/
-  margin-right: 0px;
-  font-size: 1em;
-
-}
-
-a:hover{
-  opacity: .6;
-  background-color: #6866AD;
-  color: white;
-  text-decoration: none;
-}
-
-.dash{
-  color: #4C469A;
-}
-
-p{
-  letter-spacing: .13em;
-
-  margin-bottom: 22.22px;
-}
-
-table tr{
-  border-bottom: none;
-}
+/*# sourceMappingURL=style.css.map */

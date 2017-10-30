@@ -1,0 +1,107 @@
+$tg-purple: #66598f;
+$tg-blue: lighten(#7676B7, 12%);
+$text-color: #3f1e36;
+$basic-padding: 14px;
+
+
+h1{
+  color: $tg-purple;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  letter-spacing: .12em;
+  font-size: 32px;
+  font-weight: 500;
+
+}
+
+
+a{
+  font-weight: bold;
+  color: $tg-purple;
+  text-decoration: none;
+  cursor: pointer;
+
+  font-size: 16px;
+  letter-spacing: .08em;
+  transition: .2.2s;
+  &:hover{
+    color: darken($tg-purple, 18%);
+
+  }
+}
+
+p{
+  color: $text-color;
+  font-size: 16px;
+  letter-spacing: .08em;
+  margin-bottom: 22.22px;
+
+
+}
+
+.fa{
+  font-size: 24px;
+}
+
+.slashes{
+  margin-top: $basic-padding*2;
+  margin-bottom: $basic-padding;
+}
+
+.basic-heading{
+  font-size: 19px;
+  color: $text-color;
+  letter-spacing: .08em;
+}
+
+header{
+  padding-top: $basic-padding*2;
+  padding-bottom: $basic-padding;
+  a{
+    margin-right: 12px;
+  }
+}
+
+#intro-block{
+  padding-top: $basic-padding*2.4;
+  padding-bottom: $basic-padding*2.4;
+    .fa{
+      margin-right: 22px;
+    }
+
+}
+
+#beach{
+  margin-top: $basic-padding;
+  margin-bottom: $basic-padding;
+  background-image: url('../images/bg-hotdog.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 140px;
+}
+
+#latest-block{
+  background-color: $tg-blue;
+  padding-top: $basic-padding;
+  padding-bottom: $basic-padding;
+  h1{
+    color: white;
+  }
+  small{
+    color: white;
+  }
+}
+
+#articles{
+  padding-top: $basic-padding*2;
+  padding-bottom: $basic-padding;
+
+  p{
+    margin-bottom: 12px;
+  }
+
+  h1{
+    // padding-top: $basic-padding;
+    padding-bottom: $basic-padding;
+  }
+}
