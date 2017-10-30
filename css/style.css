@@ -20,7 +20,17 @@ body{
 
 }
 
-
+#new-header{
+  background-image: url("../images/bg-hotdog.png");
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 140px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
 
 b{
   font-size: 1.14em;
@@ -28,7 +38,7 @@ b{
 
 header{
   padding-top: 24px;
-  margin-bottom: 14px;
+  
 }
 
 header a{
