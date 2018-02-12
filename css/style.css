@@ -12,7 +12,8 @@ html{
     font-size: 22pt;
     /*color: #100f0a;*/
     /*color: #888785;*/
-    color: #8eb06a;
+    /* color: #8eb06a; */
+    color: #39dd57;
     /*font-weight: 400;*/
     /*font-size: 26px;*/
     margin-bottom: 6px;
@@ -33,7 +34,7 @@ html{
     /*color: #878898;*/
 
     font-size: .9em;
-    color: #888785;
+    color: #39dd57;
     text-decoration: underline;
     transition: .3s;
     font-style: italic;
@@ -50,7 +51,11 @@ html{
     border: 1px solid #dbd9fc;
     max-width: 100%;
     /*margin: 77.777px;*/
-    width: 140px;
+    width: 80px;
+
+    border-radius: 50%;
+
+
     margin: 14px;
     margin-left: 0px;
 
@@ -73,15 +78,15 @@ html{
   }
 
   a i{
-    color: #8eb06a;
+    color: #39dd57;
     margin-right: 10%;
   }
 
   #social-links{
-    text-align: left;
+    text-align: center;
   }
   h4{
-    text-align: left;
+    text-align: center;
   }
   #main-image-full{ display: block; }
   #main-image-mobile{ display: none; }
