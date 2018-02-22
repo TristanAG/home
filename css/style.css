@@ -43,6 +43,10 @@ html{
       padding-right: 24px;
     }
   }
+  #main-container{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
   main{
     text-align: left;
   }
