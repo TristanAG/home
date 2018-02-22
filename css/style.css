@@ -39,8 +39,8 @@ html{
   }
   @media(max-width: 625px){
     #main-container{
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 24px;
+      padding-right: 24px;
     }
   }
   main{
@@ -86,7 +86,7 @@ html{
     text-decoration: underline;
     transition: .3s;
     font-style: italic;
-    
+
 
   }
 
