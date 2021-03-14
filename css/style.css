@@ -115,7 +115,7 @@ html{
     border: 1px solid #dbd9fc;
     max-width: 100%;
     /*margin: 77.777px;*/
-    width: 80px;
+    width: 120px;
 
     border-radius: 50%;
 
@@ -123,7 +123,8 @@ html{
     /* margin: 14px; */
     margin-left: 0px;
 
-    text-align: right;
+    /* text-align: right; */
+    /* margin: 0 auto; */
     /*-webkit-box-shadow: 2px 11px 31px 0px rgba(130,136,140,1);
     -moz-box-shadow: 2px 11px 31px 0px rgba(130,136,140,1);
     box-shadow: 2px 11px 31px 0px rgba(130,136,140,1);*/
@@ -144,25 +145,36 @@ html{
   a i{
     color: #39dd57;
     /* margin-right: 10%; */
-    margin-right: 8px;
-    margin-left: 8px;
+    /* margin-right: 8px;
+    margin-left: 8px; */
+    /* background-color: black; */
 
+  }
+
+  a {
+    /* background-color: black; */
+    font-weight: bold;
+    /* padding-left: 5px; 
+    padding-right: 5px;
+    border-radius: 8px; */
   }
 
   #social-links{
-    text-align: center;
+    text-align: left;
   }
   #social-links a{
     text-decoration: none;
+    
   }
   h4{
     text-align: center;
+    
   }
-  #main-image-full{ display: block; }
+  #main-image-full{ display: block;  }
   #main-image-mobile{ display: none; }
   @media (max-width: 550px){
     #social-links{
-      text-align: center;
+      /* text-align: center; */
     }
     h4{
       text-align: center;
